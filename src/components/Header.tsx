@@ -27,9 +27,11 @@ const Header = () => {
             <li><a href="#speakers" className="hover:text-yellow-300">Speakers</a></li>
             <li><a href="#contact" className="hover:text-yellow-300">Contact</a></li>
             <li>
-              <Button size="sm" className="bg-yellow-500 hover:bg-yellow-600 text-black">
-                Register Now
-              </Button>
+              <a href="https://forms.gle/c7jAg5A3jVdRumHk7" target="_blank" rel="noopener noreferrer">
+                <Button size="sm" className="bg-yellow-500 hover:bg-yellow-600 text-black">
+                  Register Now
+                </Button>
+              </a>
             </li>
           </ul>
         </nav>

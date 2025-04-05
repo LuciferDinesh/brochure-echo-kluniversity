@@ -15,13 +15,12 @@ const Hero = () => {
           <p className="text-xl mb-2">(ICBE-AIML-NIT)</p>
           <p className="text-lg mb-6">21<sup>st</sup> - 23<sup>rd</sup> April 2025</p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button className="bg-yellow-500 hover:bg-yellow-600 text-black">
-              Register Now
-            </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10">
-              Submit Paper
-            </Button>
+          <div className="flex justify-center mb-8">
+            <a href="https://forms.gle/c7jAg5A3jVdRumHk7" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-yellow-500 hover:bg-yellow-600 text-black">
+                Register Now
+              </Button>
+            </a>
           </div>
           
           <div className="bg-white/10 p-4 rounded-lg inline-block">
