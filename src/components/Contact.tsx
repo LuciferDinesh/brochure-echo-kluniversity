@@ -1,6 +1,6 @@
 
 import React from "react";
-import { EnvelopeIcon, PhoneIcon, GlobeIcon } from "lucide-react";
+import { Mail, Phone, Globe } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
           <CardContent className="p-8">
             <div className="flex flex-col space-y-6">
               <div className="flex items-start">
-                <EnvelopeIcon className="w-5 h-5 text-red-600 mr-3 mt-1" />
+                <Mail className="w-5 h-5 text-red-600 mr-3 mt-1" />
                 <div>
                   <h3 className="font-bold text-[#003366]">Email</h3>
                   <p className="text-gray-700">icbeaimlnit2025@gmail.com</p>
@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-start">
-                <PhoneIcon className="w-5 h-5 text-red-600 mr-3 mt-1" />
+                <Phone className="w-5 h-5 text-red-600 mr-3 mt-1" />
                 <div>
                   <h3 className="font-bold text-[#003366]">Phone</h3>
                   <p className="text-gray-700">Dr. K. Miranji: +91-9652330263</p>
@@ -32,7 +32,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-start">
-                <GlobeIcon className="w-5 h-5 text-red-600 mr-3 mt-1" />
+                <Globe className="w-5 h-5 text-red-600 mr-3 mt-1" />
                 <div>
                   <h3 className="font-bold text-[#003366]">Website</h3>
                   <p className="text-gray-700">www.sircrrengg.ac.in</p>
